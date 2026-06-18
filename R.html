@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ruckshitha Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
+        body{
+            background:#dfe9ea;
+            color:#222;
+        }
+
+        header{
+            display:flex;
+            justify-content:flex-end;
+            padding:20px 60px;
+        }
+
+        nav{
+            background:white;
+            padding:15px 25px;
+            border-radius:30px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:black;
+            margin:0 15px;
+            font-size:18px;
+        }
+
+        .hero{
+            min-height:80vh;
+            display:flex;
+            align-items:center;
+            padding:0 80px;
+        }
+
+        .hero-content{
+            max-width:700px;
+        }
+
+        .hero h1{
+            font-size:60px;
+            margin-bottom:10px;
+        }
+
+        .hero h3{
+            font-size:28px;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:20px;
+            line-height:1.6;
+            margin-bottom:25px;
+        }
+
+        .btn{
+            text-decoration:none;
+            background:white;
+            color:black;
+            padding:12px 25px;
+            border-radius:25px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:50px 80px;
+        }
+
+        h2{
+            margin-bottom:20px;
+            font-size:35px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:15px;
+            margin-bottom:20px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        ul{
+            margin-left:20px;
+            line-height:1.8;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .skills span{
+            background:white;
+            padding:10px 18px;
+            border-radius:20px;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            background:white;
+            margin-top:30px;
+        }
+
+        @media(max-width:768px){
+
+            header{
+                justify-content:center;
+            }
+
+            .hero{
+                padding:40px;
+            }
+
+            .hero h1{
+                font-size:40px;
+            }
+
+            section{
+                padding:40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Ruckshitha</h1>
+        <h3>AI & ML Student</h3>
+
+        <p>
+            Passionate about Artificial Intelligence,
+            Machine Learning and Web Development.
+        </p>
+
+        <a href="#about" class="btn">Explore</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        B.Tech AI & ML student at Kongu Engineering College with interest in AI and software development.
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <ul>
+            <li>B.Tech AI & ML - Kongu Engineering College</li>
+            <li>Higher Secondary - 83%</li>
+            <li>SSLC - 85.2%</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <span>Python</span>
+        <span>Java</span>
+        <span>C</span>
+        <span>Machine Learning</span>
+        <span>Web Development</span>
+        <span>Problem Solving</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Spell Checker</h3>
+        <p>Developed using Trie Data Structure.</p>
+    </div>
+
+    <div class="card">
+        <h3>Crop Recommendation System</h3>
+        <p>Machine Learning based crop prediction.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+
+    <div class="card">
+        <ul>
+            <li>Role of Mathematics in AI</li>
+            <li>IoT in Medical</li>
+            <li>Cyber Security</li>
+            <li>GenAI Project</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Training</h2>
+
+    <div class="card">
+        <ul>
+            <li>Web Development - ETS Academy</li>
+            <li>Mobile App Development - Crescent Infotech</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+        Email: ruckshitha13@gmail.com<br><br>
+        Phone: 9003440987<br><br>
+        Location: Perundurai
+    </div>
+</section>
+
+<footer>
+    Ruckshitha | AI & ML Portfolio
+</footer>
+
+</body>
+</html>
